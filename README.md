@@ -14,11 +14,11 @@
    - Windows: `gradlew.bat build`
    - Linux/macOS: `./gradlew build`
 4. Первая сборка идёт 5–10 минут (качает Minecraft и Forge).
-   Готовый мод: `build/libs/MotionBlur-1.0.0.jar`.
+   Готовый мод: `build/libs/MotionBlur-1.1.0.jar`.
 
 ## Установка
 
-Скопируй `MotionBlur-1.0.0.jar` в папку `mods`:
+Скопируй `MotionBlur-1.1.0.jar` в папку `mods`:
 - обычный Forge: `%appdata%\.minecraft\mods`
 - LabyMod 3 + Forge: тоже `%appdata%\.minecraft\mods`, запуск через
   профиль LabyMod с Forge 1.8.9
@@ -30,6 +30,7 @@
 | Вкл/выкл | клавиша **M** (меняется в Настройки → Управление → Motion Blur) |
 | Сила 1–10 | `/mb 7` |
 | Вкл / выкл командой | `/mb on`, `/mb off` |
+| Размытие поворота камеры 0–10 | `/mb camera 6` |
 | Статус | `/mb` |
 | Через меню | Mods → Motion Blur → Config |
 

@@ -24,7 +24,7 @@ public class MotionBlurCommand extends CommandBase {
 
     @Override
     public String getCommandUsage(ICommandSender sender) {
-        return "/mb <on|off|1-10>";
+        return "/mb <on|off|1-10> | /mb camera <0-10>";
     }
 
     @Override
@@ -51,6 +51,20 @@ public class MotionBlurCommand extends CommandBase {
             MotionBlurMod.setEnabled(true);
         } else if (arg.equals("off")) {
             MotionBlurMod.setEnabled(false);
+        } else if (arg.equals("camera") || arg.equals("cam")) {
+            if (args.length < 2) {
+                sender.addChatMessage(new ChatComponentText(
+                        EnumChatFormatting.GRAY + "Camera blur: " + MotionBlurMod.cameraBlur
+                                + " (0-10). Usage: /mb camera <0-10>"));
+                return;
+            }
+            try {
+                MotionBlurMod.setCameraBlur(Integer.parseInt(args[1]));
+            } catch (NumberFormatException e) {
+                sender.addChatMessage(new ChatComponentText(
+                        EnumChatFormatting.RED + "Usage: /mb camera <0-10>"));
+                return;
+            }
         } else if (arg.equals("toggle")) {
             MotionBlurMod.setEnabled(!MotionBlurMod.enabled);
         } else {

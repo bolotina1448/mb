@@ -55,6 +55,8 @@ public final class ClientSetup {
         mc.thePlayer.addChatMessage(new ChatComponentText(
                 EnumChatFormatting.AQUA + "[Motion Blur] " + state
                         + EnumChatFormatting.GRAY + " | strength: "
-                        + EnumChatFormatting.WHITE + MotionBlurMod.strength));
+                        + EnumChatFormatting.WHITE + MotionBlurMod.strength
+                        + EnumChatFormatting.GRAY + " | camera: "
+                        + EnumChatFormatting.WHITE + MotionBlurMod.cameraBlur));
     }
 }

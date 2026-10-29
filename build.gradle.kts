@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "dev.motionblur"
-version = "1.0.0"
+version = "1.1.0"
 
 // Minecraft 1.8.9 runs on Java 8 — Gradle downloads it automatically
 java {

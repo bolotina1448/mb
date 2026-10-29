@@ -2,8 +2,8 @@
   {
     "modid": "motionblur",
     "name": "Motion Blur",
-    "description": "Smooth edit-style motion blur. Toggle: M. Command: /mb <1-10> | on | off",
-    "version": "1.0.0",
+    "description": "Smooth edit-style motion blur. Toggle: M. Commands: /mb <1-10> | on | off, /mb camera <0-10>",
+    "version": "1.1.0",
     "mcversion": "1.8.9",
     "authorList": ["Claude"],
     "credits": "",
