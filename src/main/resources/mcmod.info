@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "blockanim",
+    "name": "Block Animations",
+    "description": "Customizable sword block-hit animations: 1.7, Exhibition, Swank, Sigma and more. Menu: J or /anim",
+    "version": "1.0.0",
+    "mcversion": "1.8.9",
+    "authorList": ["Claude"],
+    "credits": "",
+    "url": ""
+  }
+]
