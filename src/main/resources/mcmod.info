@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "nametags",
+    "name": "Black Nametags",
+    "description": "Nametags with a black background, clearly visible through blocks. /nametags",
+    "version": "1.0.0",
+    "mcversion": "1.8.9",
+    "authorList": ["Claude"],
+    "credits": "",
+    "url": ""
+  }
+]
